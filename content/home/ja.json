@@ -46,7 +46,7 @@
   "features.play-voice-input-demo-4-second": "音声入力デモを再生（約4秒の倍速版）",
   "features.watch-the-openless-voice-input-demo": "OpenLessの音声入力デモを見る",
   "features.your-browser-does-not-support-video": "お使いのブラウザーは動画再生に対応していません。",
-  "style.good-interaction-fits-your-voice-save": "OpenLess は使用中のアプリやそのカテゴリに合わせてスタイルパックを自動で切り替えます。プロンプト、文体、書式をカスタマイズし、マーケットでパックを入手・共有できます。",
+  "style.good-interaction-fits-your-voice-save": "よく使うプロンプト、口調、形式をスタイルパックに保存し、マーケットで自分に合う表現を見つけられます。他のユーザーとお互いのスタイルパックを共有できます。",
   "style.add-your-dictionary-for-names-and": "人名や製品名、専門用語は個人辞書へ。いつもの言葉で書けます。",
   "style.marketplace": "マーケット",
   "style.style-packs": "スタイルパックと",
@@ -131,5 +131,14 @@
   "app-aware.description": "使用中のアプリやカテゴリに合わせてスタイルパックを自動で切り替えます。チャット、メール、メモ、コーディングに合う文体と書式で入力できます。",
   "app-aware.detail": "アプリごとに入力方法を調整します。処理が終わると元のアプリと入力位置に戻り、結果を入力します。",
   "app-aware.learn-more": "アプリに合わせた入力の実演を見る",
-  "style.automatic-style": "自動スタイル"
+  "style.automatic-style": "自動スタイル",
+  "semantic.title": "Typeless の機能を、OpenLess でも",
+  "semantic.description": "意味を理解し、複雑な長文を整理し、不要な口癖を自動で除いて、伝わりやすい文章に。",
+  "semantic.detail": "Prompt（AI への指示）に特化し、話したアイデアを明確で使いやすい指示に整えます。",
+  "structured.title": "構築のための構造化",
+  "structured.description": "長い口述を目標・課題・期待・制約に整理し、AI に実行を任せやすい形にします。",
+  "structured.before": "処理前 · 元の口述",
+  "structured.after": "処理後 · 構築のために",
+  "structured.before-alt": "処理前：構造化する前の元の口述",
+  "structured.after-alt": "処理後：目標・課題・期待・制約に整理した内容"
 }

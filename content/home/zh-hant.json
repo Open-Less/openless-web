@@ -46,7 +46,7 @@
   "features.play-voice-input-demo-4-second": "播放語音輸入演示（約 4 秒加速版）",
   "features.watch-the-openless-voice-input-demo": "查看 OpenLess 語音輸入演示",
   "features.your-browser-does-not-support-video": "你的瀏覽器不支持影片播放。",
-  "style.good-interaction-fits-your-voice-save": "聊天、寫郵件、記筆記或寫程式時，OpenLess 會依目前的應用程式或類別自動切換風格包。你也可以自訂提示詞、語氣與格式，在風格市場安裝或分享。",
+  "style.good-interaction-fits-your-voice-save": "把常用的提示詞、語氣和格式存為風格包，在風格市場發現合適的表達方式。你可以與其他使用者互相分享彼此的風格包。",
   "style.add-your-dictionary-for-names-and": "搭配個人詞典，記住人名、產品名與專業術語，讓工具更貼合你。",
   "style.marketplace": "與風格市場",
   "style.style-packs": "風格包",
@@ -131,5 +131,14 @@
   "app-aware.description": "依目前的應用程式或類別，自動切換對應風格包。聊天、郵件、筆記和程式設計，都能搭配合適的語氣與格式。",
   "app-aware.detail": "依應用程式調整輸入方式。背景任務完成後，自動返回原來的應用程式和輸入位置，填入結果。",
   "app-aware.learn-more": "查看跨應用程式輸入示範",
-  "style.automatic-style": "自動風格"
+  "style.automatic-style": "自動風格",
+  "semantic.title": "Typeless 有的，我們都有",
+  "semantic.description": "語意理解、複雜長句整理、自動去掉語句中的口頭贅詞，讓表達更加清晰。",
+  "semantic.detail": "針對 Prompt（給 AI 的指令）特化，把口述想法整理成更清晰、更方便使用的指令。",
+  "structured.title": "專為構建而生的結構化",
+  "structured.description": "把一長段口述整理成清晰的目標、問題、預期與限制，讓想法更容易交給 AI 執行。",
+  "structured.before": "處理前 · 原始口述",
+  "structured.after": "處理後 · 專為構建而生",
+  "structured.before-alt": "處理前：未經結構化整理的原始口述",
+  "structured.after-alt": "處理後：按目標、問題、預期與限制組織的內容"
 }

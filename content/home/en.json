@@ -46,7 +46,7 @@
   "features.play-voice-input-demo-4-second": "Play voice input demo (4-second sped-up version)",
   "features.watch-the-openless-voice-input-demo": "Watch the OpenLess voice input demo",
   "features.your-browser-does-not-support-video": "Your browser does not support video playback. ",
-  "style.good-interaction-fits-your-voice-save": "OpenLess switches style packs based on the active app or its category. Customize prompts, tone, and formatting, then install or share packs in the marketplace.",
+  "style.good-interaction-fits-your-voice-save": "Save your prompts, tone, and formatting as style packs, and discover new ways to write in the marketplace. Share style packs with other users and try theirs.",
   "style.add-your-dictionary-for-names-and": "Add your dictionary for names and terms—tools built around you.",
   "style.marketplace": "Marketplace",
   "style.style-packs": "Style Packs &",
@@ -131,5 +131,14 @@
   "app-aware.description": "OpenLess switches style packs based on the active app or its category, matching your tone and formatting to chats, email, notes, and code.",
   "app-aware.detail": "Text insertion adapts to each app. When processing finishes, OpenLess returns to the original app and input position to insert the result.",
   "app-aware.learn-more": "Watch app-aware input in action",
-  "style.automatic-style": "Auto Style"
+  "style.automatic-style": "Auto Style",
+  "semantic.title": "What Typeless offers, we offer too",
+  "semantic.description": "Understand meaning, organize complex sentences, and automatically remove filler words for clearer expression.",
+  "semantic.detail": "Optimized for prompts—instructions for AI—so spoken ideas become clearer instructions that are easier to use.",
+  "structured.title": "Structured for building",
+  "structured.description": "Turn a long stretch of speech into clear goals, problems, expectations, and constraints, ready to hand to AI.",
+  "structured.before": "Before · Original dictation",
+  "structured.after": "After · Built for building",
+  "structured.before-alt": "Before: original dictation before structuring",
+  "structured.after-alt": "After: content organized into goals, problems, expectations, and constraints"
 }

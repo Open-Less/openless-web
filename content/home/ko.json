@@ -46,7 +46,7 @@
   "features.play-voice-input-demo-4-second": "음성 입력 데모 재생(약 4초 배속 버전)",
   "features.watch-the-openless-voice-input-demo": "OpenLess 음성 입력 데모 보기",
   "features.your-browser-does-not-support-video": "이 브라우저에서는 동영상을 재생할 수 없습니다. ",
-  "style.good-interaction-fits-your-voice-save": "OpenLess는 현재 앱이나 앱 유형에 맞춰 스타일 팩을 자동으로 전환합니다. 프롬프트, 말투, 형식을 직접 설정하고 마켓플레이스에서 팩을 설치하거나 공유할 수 있습니다.",
+  "style.good-interaction-fits-your-voice-save": "자주 쓰는 프롬프트, 어조, 형식을 스타일 팩으로 저장하고 마켓에서 알맞은 표현 방식을 찾으세요. 다른 사용자와 서로의 스타일 팩을 공유할 수 있습니다.",
   "style.add-your-dictionary-for-names-and": "이름과 제품명, 전문 용어는 개인 사전에. 평소 쓰는 말이 그대로 담깁니다.",
   "style.marketplace": "마켓플레이스",
   "style.style-packs": "스타일 팩과",
@@ -131,5 +131,14 @@
   "app-aware.description": "현재 앱이나 앱 유형에 따라 스타일 팩을 자동으로 전환합니다. 채팅, 이메일, 메모, 코딩에 맞는 말투와 형식을 적용합니다.",
   "app-aware.detail": "앱에 맞춰 입력 방식을 조정하고 처리가 끝나면 원래 앱과 입력 위치로 돌아가 결과를 입력합니다.",
   "app-aware.learn-more": "앱별 입력 데모 보기",
-  "style.automatic-style": "자동 스타일"
+  "style.automatic-style": "자동 스타일",
+  "semantic.title": "Typeless의 기능을 OpenLess에서도",
+  "semantic.description": "의미를 이해하고 복잡한 긴 문장을 정리하며 불필요한 말버릇을 자동으로 제거해 더 명확한 표현을 만듭니다.",
+  "semantic.detail": "Prompt(AI에 전달하는 지시)에 특화되어 말로 한 아이디어를 명확하고 사용하기 쉬운 지시로 정리합니다.",
+  "structured.title": "구현을 위한 구조화",
+  "structured.description": "긴 구술을 목표, 문제, 기대 결과, 제약 조건으로 정리해 AI에 실행을 맡기기 쉽게 만듭니다.",
+  "structured.before": "처리 전 · 원본 구술",
+  "structured.after": "처리 후 · 구현을 위한 정리",
+  "structured.before-alt": "처리 전: 구조화하지 않은 원본 구술",
+  "structured.after-alt": "처리 후: 목표, 문제, 기대 결과, 제약 조건으로 정리한 내용"
 }
