@@ -140,5 +140,9 @@
   "structured.before": "处理前 · 原始口述",
   "structured.after": "处理后 · 专为构建而生",
   "structured.before-alt": "处理前：未经结构化整理的原始口述",
-  "structured.after-alt": "处理后：按目标、问题、预期与约束组织的内容"
+  "structured.after-alt": "处理后：按目标、问题、预期与约束组织的内容",
+  "structured.before-label": "处理前",
+  "structured.after-label": "处理后",
+  "structured.after-title": "专为构建而生",
+  "structured.compare-label": "左右拖动，对比处理前后"
 }

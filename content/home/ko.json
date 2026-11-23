@@ -140,5 +140,9 @@
   "structured.before": "처리 전 · 원본 구술",
   "structured.after": "처리 후 · 구현을 위한 정리",
   "structured.before-alt": "처리 전: 구조화하지 않은 원본 구술",
-  "structured.after-alt": "처리 후: 목표, 문제, 기대 결과, 제약 조건으로 정리한 내용"
+  "structured.after-alt": "처리 후: 목표, 문제, 기대 결과, 제약 조건으로 정리한 내용",
+  "structured.before-label": "처리 전",
+  "structured.after-label": "처리 후",
+  "structured.after-title": "구현을 위한 정리",
+  "structured.compare-label": "좌우로 드래그하여 처리 전후 비교"
 }

@@ -140,5 +140,9 @@
   "structured.before": "處理前 · 原始口述",
   "structured.after": "處理後 · 專為構建而生",
   "structured.before-alt": "處理前：未經結構化整理的原始口述",
-  "structured.after-alt": "處理後：按目標、問題、預期與限制組織的內容"
+  "structured.after-alt": "處理後：按目標、問題、預期與限制組織的內容",
+  "structured.before-label": "處理前",
+  "structured.after-label": "處理後",
+  "structured.after-title": "專為構建而生",
+  "structured.compare-label": "左右拖動，比較處理前後"
 }

@@ -140,5 +140,9 @@
   "structured.before": "処理前 · 元の口述",
   "structured.after": "処理後 · 構築のために",
   "structured.before-alt": "処理前：構造化する前の元の口述",
-  "structured.after-alt": "処理後：目標・課題・期待・制約に整理した内容"
+  "structured.after-alt": "処理後：目標・課題・期待・制約に整理した内容",
+  "structured.before-label": "処理前",
+  "structured.after-label": "処理後",
+  "structured.after-title": "構築のために",
+  "structured.compare-label": "左右にドラッグして処理前後を比較"
 }

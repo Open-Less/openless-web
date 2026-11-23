@@ -140,5 +140,9 @@
   "structured.before": "Before · Original dictation",
   "structured.after": "After · Built for building",
   "structured.before-alt": "Before: original dictation before structuring",
-  "structured.after-alt": "After: content organized into goals, problems, expectations, and constraints"
+  "structured.after-alt": "After: content organized into goals, problems, expectations, and constraints",
+  "structured.before-label": "Before",
+  "structured.after-label": "After",
+  "structured.after-title": "Built for building",
+  "structured.compare-label": "Drag left or right to compare before and after"
 }
