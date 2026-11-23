@@ -1,0 +1,110 @@
+[
+  {
+    "id": "macos",
+    "name": "macOS",
+    "note": [
+      "要求 macOS 14 或更高版本。下载前请点击左上角苹果菜单 →「关于本机」查看处理器芯片：M 系列芯片请选择 Apple Silicon，Intel 处理器请选择 Intel。下载后双击打开 DMG，将 OpenLess 拖入「应用程序」即完成安装；首次启动如遇系统安全提示，请参阅当前版本的安装说明按步骤放行。",
+      "Requires macOS 14 or later. Check Apple menu → About This Mac: M-series chips use the Apple Silicon DMG. Open the DMG and drag OpenLess to Applications. See the release notes for first-launch prompts."
+    ],
+    "files": [
+      {
+        "label": "Apple Silicon · DMG",
+        "target": "mac-arm"
+      },
+      {
+        "label": "Intel · DMG",
+        "target": "mac-intel"
+      }
+    ]
+  },
+  {
+    "id": "windows",
+    "name": "Windows",
+    "note": [
+      "适用于 Windows 10 及以上的 64 位电脑。绝大多数个人用户请选择 EXE，下载后双击并按向导提示完成安装；如需在多台设备上通过 Windows Installer 统一部署，请选择 MSI。",
+      "For 64-bit Windows 10 or later, choose EXE and run the installer. Choose MSI if your deployment uses Windows Installer."
+    ],
+    "files": [
+      {
+        "label": "EXE · x64",
+        "target": "win-exe"
+      },
+      {
+        "label": "MSI · x64",
+        "target": "win-msi"
+      }
+    ]
+  },
+  {
+    "id": "android",
+    "name": "Android",
+    "note": [
+      "要求 Android 8 或更高版本。请按设备处理器架构选择对应安装包：绝大多数现代手机选择 arm64-v8a；较早期的 32 位 ARM 手机选择 armeabi-v7a；x86_64 与 x86 主要用于对应架构的模拟器环境，真机通常无需下载。",
+      "Requires Android 8 or later. Most phones use arm64-v8a; older 32-bit ARM phones use armeabi-v7a. The x86_64 and x86 builds are mainly for matching emulators."
+    ],
+    "files": [
+      {
+        "label": "arm64-v8a · APK",
+        "target": "android-arm64"
+      },
+      {
+        "label": "armeabi-v7a · APK",
+        "target": "android-armv7"
+      },
+      {
+        "label": "x86_64 · APK",
+        "target": "android-x64"
+      },
+      {
+        "label": "x86 · APK",
+        "target": "android-x86"
+      }
+    ]
+  },
+  {
+    "id": "ios",
+    "name": "iOS",
+    "note": [
+      "提供的 IPA 为已预编译的安装包，无需自行编译源码。但若发布说明中标注为 unsigned，说明安装包尚未签名，安装到个人设备前仍需先完成签名操作。如当前暂无正式版，可在页面上方勾选「包含测试版」；具体签名与安装步骤请参照下方「构建与签名指南」。",
+      "An IPA is prebuilt. If its release notes say unsigned, sign it for your device before installation. Enable previews above if no stable package is available."
+    ],
+    "files": [
+      {
+        "label": "IPA · iOS",
+        "target": "ios-ipa"
+      }
+    ]
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "note": [
+      "Ubuntu、Debian 及衍生发行版请选择 DEB；基于 RPM 包管理的发行版请选择 RPM。两个安装包入口目前均对应 x86_64 架构。下载前可点击版本号核对具体系统依赖；如需获取较新的测试构建，请先在上方开启测试版选项。",
+      "Use DEB on Debian-family systems or RPM for an RPM-based distribution. Both buttons target x86_64. Check the linked release for system requirements; enable previews above for newer test builds."
+    ],
+    "files": [
+      {
+        "label": "DEB · x86_64",
+        "target": "linux-deb"
+      },
+      {
+        "label": "RPM · x86_64",
+        "target": "linux-rpm"
+      }
+    ]
+  },
+  {
+    "id": "harmonyos",
+    "name": "HarmonyOS",
+    "note": [
+      "要求 HarmonyOS API 12 或更高版本。官方发布页附带的是未签名的测试 HAP，供开发者在真机上进行测试与验证，并非应用商店的一键安装包。安装前请严格按照下方鸿蒙指南完成签名与设备配置，再通过 DevEco Studio 进行安装。",
+      "Requires HarmonyOS API 12 or later. This unsigned HAP is a developer test package, not an AppGallery installer. Follow the HarmonyOS guide to configure signing and the device before installing with DevEco Studio."
+    ],
+    "files": [
+      {
+        "label": "HAP · arm64",
+        "target": "harmony-hap"
+      }
+    ]
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "id": "volcengine",
+    "name": [
+      "火山引擎",
+      "Volcengine"
+    ],
+    "steps": [
+      [
+        "开通语音识别",
+        "登录<a href=\"https://console.volcengine.com/\" target=\"_blank\" rel=\"noopener noreferrer\">火山引擎控制台</a>。如从<a href=\"https://console.volcengine.com/ark\" target=\"_blank\" rel=\"noopener noreferrer\">火山方舟</a>进入，依次打开「系统管理 → <a href=\"https://console.volcengine.com/speech/new/setting/activate\" target=\"_blank\" rel=\"noopener noreferrer\">开通管理 → 语音模型</a>」，找到 Doubao 流式语音识别并点击「立即使用」；也可直接通过「<a href=\"https://console.volcengine.com/speech/new/setting/activate\" target=\"_blank\" rel=\"noopener noreferrer\">豆包语音控制台</a>」进入开通管理。填写配置前，请先确认对应服务状态已变为「已开通」。",
+        "Activate speech recognition",
+        "Sign in to <a href=\"https://console.volcengine.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Volcengine</a>. In <a href=\"https://console.volcengine.com/ark\" target=\"_blank\" rel=\"noopener noreferrer\">Ark</a>, go to System management → <a href=\"https://console.volcengine.com/speech/new/setting/activate\" target=\"_blank\" rel=\"noopener noreferrer\">Service activation</a> → Speech models and enable Doubao streaming speech recognition. You can also use the <a href=\"https://console.volcengine.com/speech/new/setting/activate\" target=\"_blank\" rel=\"noopener noreferrer\">Doubao Speech console</a>. Check that the service is active."
+      ],
+      [
+        "复制凭证",
+        "<a href=\"https://console.volcengine.com/speech/new/setting/apikeys\" target=\"_blank\" rel=\"noopener noreferrer\">新版控制台</a>：在同一项目的「<a href=\"https://console.volcengine.com/speech/new/setting/apikeys\" target=\"_blank\" rel=\"noopener noreferrer\">API 管理</a>」中创建并复制 API Key。<a href=\"https://console.volcengine.com/speech/app\" target=\"_blank\" rel=\"noopener noreferrer\">旧版控制台</a>：在「<a href=\"https://console.volcengine.com/speech/service/10035\" target=\"_blank\" rel=\"noopener noreferrer\">API 服务中心</a>」选中对应模型和应用，于「服务接口认证信息」处复制 APP ID 和 Access Token。注意该页面也可能显示 Secret Key，但它不是 Access Token，请勿混淆。",
+        "Get your credentials",
+        "In the <a href=\"https://console.volcengine.com/speech/new/setting/apikeys\" target=\"_blank\" rel=\"noopener noreferrer\">new console</a>, create an API key under <a href=\"https://console.volcengine.com/speech/new/setting/apikeys\" target=\"_blank\" rel=\"noopener noreferrer\">API management</a> in the same project. In the <a href=\"https://console.volcengine.com/speech/app\" target=\"_blank\" rel=\"noopener noreferrer\">older console</a>, select the model and application in the <a href=\"https://console.volcengine.com/speech/service/10035\" target=\"_blank\" rel=\"noopener noreferrer\">API service center</a> and copy the APP ID and Access Token from the authentication details. The Secret Key shown there is not the Access Token."
+      ],
+      [
+        "填回 OpenLess",
+        "在 OpenLess 中打开「设置 → AI 服务与模型 → 语音识别 → 添加渠道」，选择「火山引擎」与「普通服务」。使用新版凭证时选 API Key，使用旧版凭证时选 APP ID + Access Token，按字段名称对应填入后保存并点击「验证」。",
+        "Connect OpenLess",
+        "Open Settings → AI services and models → Speech recognition → Add channel. Choose Volcengine and the standard service. Select API Key or APP ID + Access Token to match your console, fill in the corresponding fields, save, and verify."
+      ]
+    ],
+    "tip": [
+      "不确定 Resource ID 如何填写？普通流式识别可先留空。若需手动填写且开通的是按时长计费的对应服务，请填入 <code>volc.seedasr.sauc.duration</code>。若验证仍提示权限不足，请核对所填资源标识与实际开通服务是否一致。使用 Agent Plan 的用户，应另选 Agent Plan 并填入<a href=\"https://console.volcengine.com/ark/subscription/agent-plan\" target=\"_blank\" rel=\"noopener noreferrer\">套餐专属 Key</a>。",
+      "For standard streaming ASR, you can leave Resource ID blank. If you need to enter it explicitly and activated the matching duration-based service, use <code>volc.seedasr.sauc.duration</code>. If access is denied, check your service entitlement. For Agent Plan, select that plan and use <a href=\"https://console.volcengine.com/ark/subscription/agent-plan\" target=\"_blank\" rel=\"noopener noreferrer\">its dedicated key</a>."
+    ],
+    "links": [
+      [
+        "火山控制台指引",
+        "Console guide",
+        "https://docs.volcengine.com/docs/doubao-voice/console-guidance?lang=zh"
+      ],
+      [
+        "OpenLess 火山配置说明",
+        "OpenLess setup notes",
+        "https://github.com/appergb/openless/blob/main/docs/volcengine-setup.md"
+      ]
+    ],
+    "section": "configure-asr"
+  },
+  {
+    "id": "bailian",
+    "name": [
+      "阿里云百炼",
+      "Alibaba Cloud Model Studio"
+    ],
+    "steps": [
+      [
+        "选择地域",
+        "登录<a href=\"https://bailian.console.aliyun.com/\" target=\"_blank\" rel=\"noopener noreferrer\">阿里云百炼控制台</a>并开通模型服务，先确认目标模型所在的地域与业务空间。初次配置时，若使用 OpenLess 默认的中国内地端点，建议先切换至北京地域查看。",
+        "Choose a region",
+        "Sign in to <a href=\"https://bailian.console.aliyun.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Model Studio</a> and activate the service. Select the region and workspace that host your model. For the default mainland China endpoint in OpenLess, start with the Beijing region."
+      ],
+      [
+        "创建 API Key",
+        "打开所选地域的 API Key 管理页（<a href=\"https://bailian.console.aliyun.com/cn-beijing/model/settings/api-key\" target=\"_blank\" rel=\"noopener noreferrer\">北京地域入口</a>；其他地域见下方官方指引），点击「创建 API Key」，选定归属工作空间后复制。此处必须填写百炼平台的 DashScope API Key，切勿填写阿里云主账号的 AccessKey。",
+        "Create an API key",
+        "Open the API key page for your region (<a href=\"https://bailian.console.aliyun.com/cn-beijing/model/settings/api-key\" target=\"_blank\" rel=\"noopener noreferrer\">Beijing region</a>; for other regions, see the official guide below). Create a key for the appropriate workspace and copy it. Use a Model Studio (DashScope) API key, not an Alibaba Cloud account AccessKey."
+      ],
+      [
+        "选择语音模型",
+        "在 OpenLess 的「语音识别 → 添加渠道」中选择「阿里云百炼」，粘贴 API Key。语音模型可先使用默认的 <code>fun-asr-realtime</code>，保存后点击「验证」。",
+        "Choose a speech model",
+        "In OpenLess, add a Model Studio channel under Speech recognition and paste the key. Start with the default <code>fun-asr-realtime</code> model, then save and verify."
+      ]
+    ],
+    "tip": [
+      "API Key、接入地址与模型必须严格属于同一地域。如能创建 Key 但验证失败，请先核对三者地域是否一致，再确认当前账号是否具备该模型的调用权限。",
+      "The key, endpoint, and model must belong to the same region. If verification fails, check the region and your account’s access to the selected model."
+    ],
+    "links": [
+      [
+        "官方 API Key 获取指引",
+        "Official key guide",
+        "https://help.aliyun.com/zh/model-studio/get-api-key"
+      ]
+    ],
+    "section": "configure-asr"
+  },
+  {
+    "id": "iflytek",
+    "name": [
+      "讯飞开放平台",
+      "iFlytek"
+    ],
+    "steps": [
+      [
+        "选择应用",
+        "登录<a href=\"https://console.xfyun.cn/app/myapp\" target=\"_blank\" rel=\"noopener noreferrer\">讯飞开放平台控制台</a>，在「<a href=\"https://console.xfyun.cn/app/myapp\" target=\"_blank\" rel=\"noopener noreferrer\">我的应用</a>」中选中一个已有应用，或按提示创建一个新应用。后续凭证均需从该应用下获取。",
+        "Choose an application",
+        "Sign in to the <a href=\"https://console.xfyun.cn/app/myapp\" target=\"_blank\" rel=\"noopener noreferrer\">iFlytek console</a>. Under <a href=\"https://console.xfyun.cn/app/myapp\" target=\"_blank\" rel=\"noopener noreferrer\">My applications</a>, open an existing app or create one."
+      ],
+      [
+        "开通实时语音转写",
+        "为<a href=\"https://console.xfyun.cn/app/myapp\" target=\"_blank\" rel=\"noopener noreferrer\">所选应用</a>开通「实时语音转写（标准版，RTASR）」，进入该服务的鉴权信息页，复制 APPID 和 APIKey。请勿从「语音听写」或其他语音产品复制密钥，不同产品的鉴权凭证互不通用。",
+        "Activate real-time transcription",
+        "Enable standard real-time transcription (RTASR) for <a href=\"https://console.xfyun.cn/app/myapp\" target=\"_blank\" rel=\"noopener noreferrer\">this app</a>. Open that service’s authentication details and copy its APPID and APIKey. Credentials for a different speech product won’t work here."
+      ],
+      [
+        "填入同一应用的两项凭证",
+        "在 OpenLess 的「语音识别 → 添加渠道」中选择「讯飞」，准确填入同一应用的 AppID 和 API Key，保存后点击「验证」。",
+        "Connect the same app",
+        "Add an iFlytek channel under Speech recognition in OpenLess. Enter the AppID and API Key from the same app, save, and verify."
+      ]
+    ],
+    "tip": [
+      "若提示鉴权失败，请按顺序核对三项：实时语音转写（标准版，RTASR）是否已开通、AppID 与 API Key 是否成对出自同一应用、本机系统时间是否准确。",
+      "If authentication fails, make sure RTASR is active, both credentials belong to the same app, and your device clock is correct."
+    ],
+    "links": [
+      [
+        "实时语音转写标准版文档",
+        "RTASR documentation",
+        "https://www.xfyun.cn/doc/asr/rtasr/API.html"
+      ]
+    ],
+    "section": "configure-asr"
+  },
+  {
+    "id": "deepseek",
+    "name": [
+      "DeepSeek",
+      "DeepSeek"
+    ],
+    "steps": [
+      [
+        "申请 API Key",
+        "登录 <a href=\"https://platform.deepseek.com/\" target=\"_blank\" rel=\"noopener noreferrer\">DeepSeek 开放平台</a>，进入「<a href=\"https://platform.deepseek.com/api_keys\" target=\"_blank\" rel=\"noopener noreferrer\">API Keys</a>」页面创建一个新的 Key，建议命名清晰（例如 OpenLess）以便后续管理，创建后立即复制保存。",
+        "Create an API key",
+        "Sign in to the <a href=\"https://platform.deepseek.com/\" target=\"_blank\" rel=\"noopener noreferrer\">DeepSeek Platform</a> and open <a href=\"https://platform.deepseek.com/api_keys\" target=\"_blank\" rel=\"noopener noreferrer\">API Keys</a>. Create a key, give it a recognizable name such as OpenLess, and copy it."
+      ],
+      [
+        "添加语言模型用于润色",
+        "在 OpenLess 中打开「设置 → AI 服务与模型 → 语言模型」，添加 DeepSeek，粘贴 API Key 并选择当前账号可用的模型，保存后点击「验证」。在传统模式下，语音识别仍由你单独配置的 ASR 渠道负责。",
+        "To edit text: add a language model",
+        "In Settings → AI services and models → Language models, add DeepSeek. Paste the API key, select a model available to your account, save, and verify. In the traditional pipeline, transcription uses a separate ASR channel."
+      ],
+      [
+        "验证润色效果",
+        "启用并选中该语言模型渠道，选择一个润色风格后，在空白笔记里试说“呃，周五，不对，周四交稿”。请重点核对最终输出是否已将日期更正为周四，以及语气是否符合所选风格。",
+        "Test the edit",
+        "Enable and select the language model channel and an editing style. Dictate “Um, the draft is due Friday—no, Thursday.” Check the corrected day and the tone, not just whether text appeared."
+      ]
+    ],
+    "tip": [
+      "此处仅配置文字润色，不会改动你的语音识别渠道。如需使用同一套 DeepSeek 服务完成听写、提问、联网搜索与朗读，请参阅下方<a href=\"#deepseek-suite\">DeepSeek 大统一</a>。",
+      "This configures text editing only. For DeepSeek speech recognition, Q&A, and read-aloud, see the <a href=\"#deepseek-suite\">DeepSeek suite</a>."
+    ],
+    "links": [
+      [
+        "首次调用 API",
+        "First API call",
+        "https://api-docs.deepseek.com/"
+      ]
+    ],
+    "section": "configure-llm"
+  },
+  {
+    "section": "configure-llm",
+    "id": "ark-llm",
+    "name": [
+      "火山方舟",
+      "Volcengine Ark"
+    ],
+    "steps": [
+      [
+        "准备文本模型",
+        "在<a href=\"https://console.volcengine.com/ark\" target=\"_blank\" rel=\"noopener noreferrer\">火山方舟控制台</a>开通所需的文本模型，<a href=\"https://console.volcengine.com/ark/region:ark+cn-beijing/apiKey\" target=\"_blank\" rel=\"noopener noreferrer\">创建方舟 API Key</a>，并复制控制台给出的模型 ID 或<a href=\"https://console.volcengine.com/ark/region:ark+cn-beijing/endpoint\" target=\"_blank\" rel=\"noopener noreferrer\">推理接入点 ID</a>。语音服务使用的 APP ID 与 Access Token 不能替代此处的方舟 API Key。",
+        "Prepare a text model",
+        "Enable a text model <a href=\"https://console.volcengine.com/ark\" target=\"_blank\" rel=\"noopener noreferrer\">in Ark</a>, <a href=\"https://console.volcengine.com/ark/region:ark+cn-beijing/apiKey\" target=\"_blank\" rel=\"noopener noreferrer\">create an Ark API key</a>, and copy the model or <a href=\"https://console.volcengine.com/ark/region:ark+cn-beijing/endpoint\" target=\"_blank\" rel=\"noopener noreferrer\">inference endpoint ID</a> shown in the console. The APP ID and Access Token from the speech service are not substitutes for this key."
+      ],
+      [
+        "添加文字处理渠道",
+        "打开「设置 → AI 服务与模型 → 语言模型（文字处理）」，添加「火山方舟」，选择与所开通服务一致的类型，填入对应 Key 和模型 ID。保持该服务的预设接入地址不变，依次保存、验证并启用。",
+        "Add an editing channel",
+        "Under Settings → AI services and models → Language models (text editing), add Ark. Choose the service you activated, enter its key and model ID, keep its preset endpoint, then save, verify, and enable the channel."
+      ]
+    ],
+    "tip": [
+      "普通服务与套餐服务的密钥及接入地址不可混用。如提示找不到模型，请优先核对所选服务类型与推理接入点 ID 是否匹配。",
+      "Standard and subscription services use different keys and endpoints. If the model is not found, check the service type and endpoint ID."
+    ],
+    "links": [
+      [
+        "OpenLess 配置说明",
+        "OpenLess configuration",
+        "https://github.com/appergb/openless/blob/main/docs/volcengine-setup.md"
+      ]
+    ]
+  },
+  {
+    "section": "multimodal",
+    "id": "omni-gemini",
+    "name": [
+      "Google Gemini",
+      "Google Gemini"
+    ],
+    "steps": [
+      [
+        "选择支持音频的模型",
+        "例如 <code>gemini-3.5-flash-lite</code>。Gemini Flash 系列支持多种模态输入，选型时请前往<a href=\"https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite\" target=\"_blank\" rel=\"noopener noreferrer\">官方模型页</a>核对该具体版本确实支持 Audio 输入与 Text 输出。",
+        "Choose a model",
+        "For example, <code>gemini-3.5-flash-lite</code>. Gemini Flash models support several kinds of input. Check the <a href=\"https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite\" target=\"_blank\" rel=\"noopener noreferrer\">exact model card</a> for audio input and text output."
+      ],
+      [
+        "填写 Gemini 预设",
+        "在 <a href=\"https://aistudio.google.com/apikey\" target=\"_blank\" rel=\"noopener noreferrer\">Google AI Studio</a> 中为项目创建 API Key。打开 OpenLess 的「多模态模型」，选择 Google Gemini，填入模型 ID 与 Key，默认 Base URL 保持为 <code>https://generativelanguage.googleapis.com/v1beta</code>，保存后点击「验证」。",
+        "Fill in the Gemini preset",
+        "Create a project API key in <a href=\"https://aistudio.google.com/apikey\" target=\"_blank\" rel=\"noopener noreferrer\">Google AI Studio</a>. In Multimodal model, choose Google Gemini, enter the model ID and key, and keep the default base URL <code>https://generativelanguage.googleapis.com/v1beta</code>. Save and verify."
+      ]
+    ],
+    "tip": [
+      "若你的版本提供 Gemini 专用 Transcribe 模型，该模型仅走智能转写路径，不能当作通用问答或翻译模型使用。",
+      "If your release offers dedicated Gemini Transcribe models, they use Smart transcription, not general Q&A or translation."
+    ],
+    "links": [
+      [
+        "音频输入说明",
+        "Audio input guide",
+        "https://ai.google.dev/gemini-api/docs/audio"
+      ]
+    ]
+  },
+  {
+    "section": "multimodal",
+    "id": "omni-openai",
+    "name": [
+      "OpenAI Audio",
+      "OpenAI Audio"
+    ],
+    "steps": [
+      [
+        "选择支持音频的型号",
+        "例如 <a href=\"https://developers.openai.com/api/docs/models/gpt-audio\" target=\"_blank\" rel=\"noopener noreferrer\"><code>gpt-audio</code></a>，可直接接收音频输入并返回文字。并非所有 GPT 型号都在同一接口下支持音频输入，仅支持图像的型号无法替代。",
+        "Choose an audio model",
+        "For example, <a href=\"https://developers.openai.com/api/docs/models/gpt-audio\" target=\"_blank\" rel=\"noopener noreferrer\"><code>gpt-audio</code></a> accepts a recording and can return text. Not every GPT model accepts audio on the same API; image support alone is not enough."
+      ],
+      [
+        "填写 OpenAI 预设",
+        "在 <a href=\"https://platform.openai.com/api-keys\" target=\"_blank\" rel=\"noopener noreferrer\">OpenAI API 平台</a>为对应项目创建 API Key。在 OpenLess 中选择「OpenAI（支持音频）」，填入模型 ID 与项目 Key，Base URL 填写 <code>https://api.openai.com/v1</code>。保存并验证通过后，务必实际试录一段声音确认。",
+        "Fill in the OpenAI preset",
+        "Create a project API key on the <a href=\"https://platform.openai.com/api-keys\" target=\"_blank\" rel=\"noopener noreferrer\">OpenAI API platform</a>. Choose OpenAI (audio), enter the model ID and project key, and use <code>https://api.openai.com/v1</code> as the base URL. Save and verify, then test a recording."
+      ]
+    ],
+    "tip": [
+      "调用前请确认该 API 项目已具备所选模型的访问权限及<a href=\"https://platform.openai.com/settings/organization/billing/overview\" target=\"_blank\" rel=\"noopener noreferrer\">可用额度</a>。此处需填写 API Key，而非 ChatGPT 网页端的登录密码。",
+      "Your API project needs model access and <a href=\"https://platform.openai.com/settings/organization/billing/overview\" target=\"_blank\" rel=\"noopener noreferrer\">available quota</a>. Use an API key, not a ChatGPT login password."
+    ],
+    "links": [
+      [
+        "GPT-Audio 模型说明",
+        "GPT-Audio model card",
+        "https://developers.openai.com/api/docs/models/gpt-audio"
+      ]
+    ]
+  },
+  {
+    "section": "multimodal",
+    "id": "omni-qwen",
+    "name": [
+      "阿里云 Qwen-Omni",
+      "Alibaba Cloud Qwen-Omni"
+    ],
+    "steps": [
+      [
+        "选择 Omni 型号",
+        "例如 <a href=\"https://help.aliyun.com/zh/model-studio/qwen-omni\" target=\"_blank\" rel=\"noopener noreferrer\"><code>qwen3-omni-flash</code></a>。Qwen-Omni 可理解文本、音频、图片与视频；在 OpenLess 中听写时实际发送的是录音，请选择所在地域可用且支持音频输入的型号。",
+        "Choose an Omni model",
+        "For example, <a href=\"https://help.aliyun.com/zh/model-studio/qwen-omni\" target=\"_blank\" rel=\"noopener noreferrer\"><code>qwen3-omni-flash</code></a>. Qwen-Omni can understand text, audio, images, and video. For dictation, choose an audio-capable model available in your region."
+      ],
+      [
+        "填写百炼 Omni 预设",
+        "在<a href=\"https://bailian.console.aliyun.com/\" target=\"_blank\" rel=\"noopener noreferrer\">百炼控制台</a>选定模型所在地域和工作空间，<a href=\"https://bailian.console.aliyun.com/cn-beijing/model/settings/api-key\" target=\"_blank\" rel=\"noopener noreferrer\">创建 API Key（北京地域）</a>。在 OpenLess 中选择「阿里云百炼 Omni」，填入 Key 与模型 ID，并使用该地域对应的兼容模式 Base URL（中国内地默认为 <code>https://dashscope.aliyuncs.com/compatible-mode/v1</code>）。保存、验证并试录一段。",
+        "Fill in the Model Studio Omni preset",
+        "Choose the model’s region and workspace in <a href=\"https://bailian.console.aliyun.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Model Studio</a>, then create an API key (<a href=\"https://bailian.console.aliyun.com/cn-beijing/model/settings/api-key\" target=\"_blank\" rel=\"noopener noreferrer\">Beijing region</a>). Choose Model Studio Omni in OpenLess, then enter the key and model ID. Use the compatible-mode base URL for that region; the mainland China preset is <code>https://dashscope.aliyuncs.com/compatible-mode/v1</code>. Save, verify, and record a sample."
+      ]
+    ],
+    "tip": [
+      "切勿将传统 ASR 的 WebSocket 地址填到此处：多模态走的是模型服务的兼容接口。若涉及跨地域配置，请同时核对模型、密钥与接入地址三项是否一致。",
+      "Do not paste the traditional ASR WebSocket endpoint here. Omni uses the model service’s compatible API. The model, key, and endpoint must match the region."
+    ],
+    "links": [
+      [
+        "百炼 API Key",
+        "Model Studio API keys",
+        "https://help.aliyun.com/zh/model-studio/get-api-key"
+      ],
+      [
+        "Qwen-Omni 输入说明",
+        "Qwen-Omni inputs",
+        "https://help.aliyun.com/zh/model-studio/qwen-omni"
+      ]
+    ]
+  }
+]

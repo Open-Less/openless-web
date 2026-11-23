@@ -1,0 +1,11 @@
+[
+  {
+    "tag": "v2.0.2-tauri",
+    "date": "2026-11-15",
+    "title": ["OpenLess 2.0.2 正式版", "OpenLess 2.0.2 stable"],
+    "notes": [
+      ["2.0.2 Beta 7 转为正式版，构建号为 20261115。"],
+      ["2.0.2 Beta 7 was promoted to the stable release, build 20261115."]
+    ]
+  }
+]

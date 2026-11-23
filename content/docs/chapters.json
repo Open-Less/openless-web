@@ -1,0 +1,349 @@
+[
+  {
+    "slug": "",
+    "title": [
+      "认识 OpenLess",
+      "Meet OpenLess"
+    ],
+    "lead": [
+      "OpenLess 面向的不是更快的打字，而是下一代交互：让自然的说话直接成为书面表达与 AI 协作的起点。想亲身体验，随手打开一封邮件草稿即可开始。",
+      "To try voice input, open an email draft."
+    ],
+    "topics": [
+      [
+        "workflow",
+        "workflow",
+        "先试一句",
+        "How voice input works"
+      ],
+      [
+        "从工具到基础设施",
+        "from-tool-to-infrastructure",
+        "记住常用词和语气",
+        "The idea behind OpenLess"
+      ],
+      [
+        "为什么-openless-要开源",
+        "why-openless-is-open-source",
+        "看源码要花钱吗？",
+        "Why open source?"
+      ]
+    ]
+  },
+  {
+    "slug": "installation",
+    "title": [
+      "下载与安装",
+      "Download & install"
+    ],
+    "lead": [
+      "选择你的设备平台，下载对应安装包并按步骤完成安装。测试版以及需要自行签名的安装包，下文均会明确标注。",
+      "Choose a device to get its installer. Test builds and packages that require personal signing are marked below."
+    ],
+    "topics": [
+      [
+        "平台支持",
+        "platform-support",
+        "选择设备",
+        "Choose a device"
+      ],
+      [
+        "下载与安装终端用户",
+        "download--install-end-users",
+        "下载文件与安装说明",
+        "Installers and instructions"
+      ]
+    ]
+  },
+  {
+    "slug": "setup",
+    "title": [
+      "配置入门",
+      "Set up your services"
+    ],
+    "lead": [
+      "初次使用建议从「传统模式」起步：由 ASR 将语音转写为文字，再由 LLM 整理措辞。也可以跳过这两步，直接配置「多模态模式」或「DeepSeek 大统一」。三种管线任选其一即可跑通。",
+      "Start with Traditional: ASR transcribes your voice, then an optional LLM edits the words. Alternatively, go straight to Multimodal or the DeepSeek suite. You only need one pipeline."
+    ],
+    "topics": [
+      [
+        "配置你的-asr",
+        "configure-asr",
+        "配置你的 ASR",
+        "Configure your ASR"
+      ],
+      [
+        "配置你的-llm",
+        "configure-llm",
+        "配置你的 LLM",
+        "Configure your LLM"
+      ],
+      [
+        "多模态",
+        "multimodal",
+        "多模态：用一个模型听写",
+        "Multimodal dictation"
+      ],
+      [
+        "deepseek-suite",
+        "deepseek-suite",
+        "DeepSeek 大统一",
+        "DeepSeek suite"
+      ],
+      [
+        "试录一句",
+        "test-dictation",
+        "试录一句",
+        "Try a short recording"
+      ]
+    ]
+  },
+  {
+    "slug": "voice-input",
+    "title": [
+      "语音输入与润色",
+      "Dictation & editing"
+    ],
+    "lead": [
+      "下一代交互的核心，是让工具适应人的表达，而不是让人迁就键盘。说话前不必先打腹稿，直接说出想法，由 OpenLess 整理成得体的书面文字。",
+      "Start with what you’d say out loud. Here’s how it can read in an email."
+    ],
+    "topics": [
+      [
+        "一个具体例子",
+        "a-concrete-example",
+        "比如，回一封邮件",
+        "A worked example"
+      ],
+      [
+        "使用场景",
+        "use-cases",
+        "还可以用在哪儿？",
+        "Where to use it"
+      ],
+      [
+        "-新增能力",
+        "-whats-new",
+        "文字没出现在输入框？",
+        "What’s new in the workflow"
+      ]
+    ]
+  },
+  {
+    "slug": "personalization",
+    "title": [
+      "风格包与个人词典",
+      "Style packs & dictionary"
+    ],
+    "lead": [
+      "真正的下一代交互应当懂得你的表达习惯：人名和术语总被听错，就交给个人词典；需要切换不同场合的语气与结构，就交给风格包。",
+      "For misheard names, use the dictionary. For a different tone, switch style packs."
+    ],
+    "topics": [
+      [
+        "风格包与-marketplace",
+        "style-packs--the-marketplace",
+        "保存自己的写作风格",
+        "Style packs and the marketplace"
+      ],
+      [
+        "词典",
+        "dictionary",
+        "让人名和术语更准",
+        "Dictionary and hotwords"
+      ],
+      [
+        "提示词处理原则",
+        "prompt-handling-principles",
+        "给 AI 写提示词",
+        "Prompt-handling rules"
+      ]
+    ]
+  },
+  {
+    "slug": "development",
+    "title": [
+      "源码与架构",
+      "Build & architecture"
+    ],
+    "lead": [
+      "本页提供桌面端源码构建命令、密钥存储说明以及客户端系统架构图。如暂不编译运行，可直接从目录跳转至「系统架构」。",
+      "Run the desktop app with the commands below, or jump to System architecture for the diagrams."
+    ],
+    "topics": [
+      [
+        "从源码构建开发者",
+        "build-from-source-developers",
+        "本地构建",
+        "Build from source"
+      ],
+      [
+        "凭据",
+        "credentials",
+        "服务密钥放在哪儿？",
+        "Credentials and configuration"
+      ],
+      [
+        "架构",
+        "architecture",
+        "系统架构",
+        "System architecture"
+      ]
+    ]
+  },
+  {
+    "slug": "project",
+    "title": [
+      "功能与路线图",
+      "Status & roadmap"
+    ],
+    "lead": [
+      "OpenLess 致力于打造开放、可自选服务的下一代语音交互层。本页如实说明当前已可用的平台与能力、迭代原则以及仍在规划中的方向。",
+      "What can you use today, and what’s still in the works?"
+    ],
+    "topics": [
+      [
+        "项目定位",
+        "project-direction",
+        "可以自己选服务吗？",
+        "Project direction"
+      ],
+      [
+        "功能现状",
+        "status",
+        "我的平台支持什么？",
+        "Feature status"
+      ],
+      [
+        "对比",
+        "comparison",
+        "听写和润色有什么区别？",
+        "Comparison"
+      ],
+      [
+        "稳定性冻结",
+        "stability-freeze",
+        "现在接受哪些改动？",
+        "Stability freeze"
+      ],
+      [
+        "路线图",
+        "roadmap",
+        "还在计划中的功能",
+        "Roadmap"
+      ]
+    ]
+  },
+  {
+    "slug": "vision",
+    "title": [
+      "愿景与接下来的功能",
+      "Vision & what’s next"
+    ],
+    "lead": [
+      "让言语，重归自然。",
+      "Make speaking feel natural again."
+    ],
+    "topics": [
+      [
+        "product-vision",
+        "product-vision",
+        "我们的愿景",
+        "Our vision"
+      ],
+      [
+        "product-whats-next",
+        "product-whats-next",
+        "接下来的功能",
+        "What’s next"
+      ]
+    ]
+  },
+  {
+    "slug": "contributing",
+    "title": [
+      "贡献与发布",
+      "Contribute & release"
+    ],
+    "lead": [
+      "无论是修复缺陷、改进跨平台兼容，还是完善文档，所有修改均从 beta 分支发起。请按下方流程完成本地验证并提交 Pull Request。",
+      "Fixing a bug or editing the docs? Start on the beta branch."
+    ],
+    "topics": [
+      [
+        "贡献流程",
+        "contributing-workflow",
+        "怎么提交修改？",
+        "Contribution workflow"
+      ],
+      [
+        "维护者发布清单",
+        "maintainer-release-checklist",
+        "怎么发布版本？",
+        "Release checklist"
+      ]
+    ]
+  },
+  {
+    "slug": "community",
+    "title": [
+      "团队与许可",
+      "People & licensing"
+    ],
+    "lead": [
+      "查阅条款前，请先核对你使用的软件版本：OpenLess 2.0 与已发布的 1.x 采用不同的开源许可证。本页同时列出项目作者、平台维护者、赞助商与第三方组件署名。",
+      "Start with your version: OpenLess 2.0 and the published 1.x releases use different licenses. Meet the authors, platform maintainers, and testers below."
+    ],
+    "topics": [
+      [
+        "许可证",
+        "license",
+        "许可证",
+        "License"
+      ],
+      [
+        "开发者",
+        "developers",
+        "开发团队",
+        "Developers"
+      ],
+      [
+        "赞助商",
+        "sponsors",
+        "赞助商",
+        "Sponsors"
+      ],
+      [
+        "致谢",
+        "acknowledgements",
+        "致谢",
+        "Acknowledgements"
+      ],
+      [
+        "第三方组件",
+        "third-party-components",
+        "第三方组件",
+        "Third-party components"
+      ]
+    ]
+  },
+  {
+    "slug": "updates",
+    "title": [
+      "更新日志",
+      "Release notes"
+    ],
+    "lead": [
+      "查看 OpenLess 已发布版本的更新说明。",
+      "Read the notes for published OpenLess releases."
+    ],
+    "topics": [
+      [
+        "版本记录",
+        "release-history",
+        "版本记录",
+        "Release history"
+      ]
+    ]
+  }
+]

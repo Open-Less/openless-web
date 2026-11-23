@@ -1,0 +1,134 @@
+{
+  "from-tool-to-infrastructure": [
+    "<p>许多人对语音输入的印象还停留在“说得快，但改得累”——同事姓名一错再错，行业术语反复手改，给客户和给队友发消息还得人工重写语气。从“能听写的工具”走向<strong>下一代交互的基础设施</strong>，关键不在于识别速度快了几百毫秒，而在于把这些周而复始的手动协调沉淀为默认规则：</p><ul><li><strong>语气沉淀为风格包：</strong>把写邮件、群沟通、写提示词等不同场合的表达方式各自存成风格包，需要时直接切换，不必每次重新调整措辞。</li><li><strong>专有名词沉淀为个人词典：</strong>把同事姓名、项目代号与专业词汇加入词典，往后听写与润色都会优先采用你的标准写法。</li><li><strong>落位沉淀为统一协议：</strong>无论光标停在邮件、聊天窗、笔记还是 AI 对话框，开口后文字直达光标；遇到受限窗口则自动回退到剪贴板，内容不会丢失。</li></ul><p>配置一次之后，交互便会退居幕后——你只负责思考和表达，不再替工具逐字善后。</p>",
+    "<p>Add a colleague’s name to your dictionary or save your email tone as a style pack. You won’t have to make the same edit next time.</p>"
+  ],
+  "why-openless-is-open-source": [
+    "<p>不用。OpenLess 是一款免费开源的软件，全部源代码公开可查，你可以随时阅读、审计，也可以拉到本地自行编译。</p><p>我们认为，当语音逐步成为日常写作与 AI 协作的下一代交互入口，它理应保持透明、本地优先且不绑定任何单一厂商。OpenLess 不向用户收取软件订阅费，也允许你自由接入自己的云端语音或语言模型服务；若使用了收费的云服务，相关费用由对应服务商直接按规则收取。</p>",
+    "<p>OpenLess is free and open source. You can build it yourself. A cloud provider may charge for its own service.</p>"
+  ],
+  "a-concrete-example": [
+    "<p>口语与书面语本就遵循不同的规律。开口说话时，人难免会停顿、补充、改口，带出松散的过渡词；而发出去的文字则讲求清晰、得体、有分寸。在 OpenLess 所代表的下一代交互里，你不需要先在心里把句子雕琢成书面稿再开口，只需直接把意思说明白。</p><p>例如，你需要回复一封方案确认邮件，整体认可但希望交付顺延两周。此时把光标放进回复框，像日常沟通一样直接说出口即可：</p><p><strong>你说：</strong>“方案没问题，就是时间有点赶，能不能晚两周？”</p><p><strong>写成邮件：</strong>“我们认可这个方案。交付时间可以推迟两周吗？”</p><p>核心意图完整保留，口语里的毛边与急促被自然抹平。如果你切换到更轻松的聊天风格，同一句口述则会以简洁随和的方式呈现——最终的语气和格式，完全取决于当前所选的风格包。</p>",
+    "<p><strong>You say:</strong> “The plan looks good, but it’s a bit tight. Can we get two more weeks?”</p><p><strong>As an email:</strong> “The plan looks good to us. Could we extend the deadline by two weeks?”</p>"
+  ],
+  "use-cases": [
+    "<p>只要光标能够停驻的文本输入区域，几乎都可以用 OpenLess 完成表达。不同场景下，掌握一点简单的开口方式，效果会格外明显：</p><ul><li><strong>工作消息：</strong>直接说清三个要素——谁负责、做什么、何时完成。群聊中的日常同步大多三言两语，开口说出来比反复打字删改利落得多。</li><li><strong>AI 对话：</strong>这是语音交互最能发挥优势的场景。开口时先交代任务目标，再补充背景与限制条件，例如“帮我写一封不超过三段的跟进邮件，语气客气但明确截止日期”。口述能轻松承载更完整的上下文，往往比键盘简短输入得到更高质量的 AI 回复。</li><li><strong>个人笔记：</strong>点开笔记的空白行，直接说出刚浮现的想法。灵感转瞬即逝，先以说话的速度完整留存下来，事后再按需整理。</li></ul>",
+    "<ul><li><strong>Work messages:</strong> Say who needs to do what and by when.</li><li><strong>AI chats:</strong> Give the task first, then the constraint: “Draft a follow-up email in three paragraphs or less.”</li><li><strong>Notes:</strong> Place the cursor on a blank line and capture the thought before it slips away.</li></ul>"
+  ],
+  "-whats-new": [
+    "<p>部分应用程序出于自身安全策略或系统权限限制，不允许外部工具直接向输入框写入文本。遇到这种情况时，不必担心刚才的口述内容丢失：OpenLess 会自动将整理完毕的结果写入系统剪贴板。你只需直接按下粘贴快捷键，文字便会原样填入当前输入框。</p>",
+    "<p>Some apps block direct insertion. OpenLess copies the result to your clipboard so you can paste it instead.</p>"
+  ],
+  "style-packs--the-marketplace": [
+    "<p>同一件事，对客户需要克制周全，对同事讲究直截了当，记在笔记里则追求随性真实。与其每次输入后手动改写语气，不如把不同场合的表达规则固定下来，让交互主动贴合你的习惯。</p><p><strong>具体做法：</strong>打开应用中的「风格」页面，分别为不同场景创建风格包（例如一个用于正式客户邮件，一个用于团队内部沟通），写明期望的语气与格式要求；日常使用时按需一键切换。你也可以前往内置的风格市场浏览、下载社区分享的现成风格包，或将自己打磨顺手的风格包发布分享出去。</p><p><strong>建议这样测试效果：</strong>拿同一句话分别在两个风格包下各说一次——“交付时间能不能晚两周？”用于客户邮件的风格，会自然保留礼貌称呼与完整句式；用于团队聊天的风格，则只保留干净利落的请求本身。把两份结果放在一起对照，确认合乎心意后，再设为常用风格。</p>",
+    "<p>Save one style for client emails and another for team chat. Switch between them in Styles, or find and share packs in the marketplace.</p><p>Try the same request in two packs: “Can we move delivery back two weeks?” For a customer email, keep a greeting and full sentences; for team chat, keep just the request. Compare the results before choosing your default.</p>"
+  ],
+  "dictionary": [
+    "<p>人名、产品名、项目代号与行业术语往往不在通用语音模型的常见词表中，是最容易反复识别出错的地方。解决这类问题的具体方法是：打开「词典」，将正确的拼写或写法加入个人词典，往后识别与润色都会优先向词典看齐。</p><p>开启「词汇学习」后，当你手动修改了 OpenLess 刚输出的某个错词，它会弹出确认提示，询问你是否记住这次修正。是否写入词典始终由你决定，应用不会在未经同意的情况下静默学习。</p><h3 id=\"光标上下文可选macos--windows--android\">光标附近的文字有什么用？</h3><p>汉语中同音词众多，单靠短促的发音有时难以区分准确用字。启用「光标上下文」后，OpenLess 会参考光标周围已有的文字作为语境线索，从而更准确地分辨同音词。该功能为可选开关，在支持的平台（macOS、Windows、Android）上可按需手动开启。</p><p><strong>遇到输出不理想时，请按这两步定位原因：</strong>如果是人名或专有词反复写错，优先补充个人词典；如果字词准确无误，只是语气偏硬或结构不够贴合，则去调整风格包。将“词准不准”与“语气对不对”分开测试，能最快判断是哪一环起了作用。</p>",
+    "<p>If a name keeps coming out wrong, add its spelling to your dictionary. With vocabulary learning on, OpenLess asks before saving a correction.</p><h3 id=\"cursor-context-opt-in-macos--windows--android\">Why use nearby text?</h3><p>It helps OpenLess tell similar-sounding words apart. You can turn it on where supported.</p><p>If a name keeps coming out wrong, change the dictionary. If the spelling is right but the tone feels too stiff, change the style pack. Test them separately to see which one helps.</p>"
+  ],
+  "prompt-handling-principles": [
+    "<p>在 AI 时代，向模型清晰交代背景、目标与约束条件，往往比写一段普通消息更费精力——而这正是下一代语音交互最擅长的事情。</p><p><strong>具体用法：</strong>切换到「提示词模式」后，直接对着麦克风自由口述你的诉求：你希望 AI 扮演什么角色、完成什么任务、必须遵守哪些格式或字数限制，即使说话顺序有些散乱也无妨。OpenLess 会自动梳理你的口语，提炼成一段结构清晰、约束明确的指令填入输入框，再由你核对并发送给 AI。请注意，OpenLess 只负责整理你的提示词，不会越俎代庖替 AI 直接作答。</p>",
+    "<p>Say what you want the AI to do and any rules it should follow. Prompt mode turns your words into an instruction you can send.</p>"
+  ],
+  "build-from-source-developers": [
+    "<p>请先在本地安装项目要求版本的 Rust、Node.js，以及当前操作系统对应的 Tauri 编译依赖。环境就绪后，在仓库根目录依次执行以下命令启动桌面开发版：</p><pre><code>cd openless-all/app\nnpm ci\nnpm run tauri dev</code></pre><p>以上命令适用于桌面端 Tauri 客户端（macOS / Windows）。如需构建 Linux 原生端或各移动端（Android / iOS / HarmonyOS），请参阅<a href=\"@repo/openless-all/README.zh.md\">平台构建指南</a>获取完整依赖与构建命令。</p><p><strong>启动后的验证建议：</strong>客户端拉起后，先在一个空白输入框中试录一句话，确认录音转写与光标插入两条核心链路均工作正常，再着手代码改动。若你当前仅需阅读源码而无须本地运行，可直接从下方的系统架构图定位目标平台宿主，再沿着数据流向下追踪共享后端逻辑。</p>",
+    "<p>Install the project’s Rust, Node.js, and platform-specific Tauri prerequisites, then run the following from the repository root:</p><pre><code>cd openless-all/app\nnpm ci\nnpm run tauri dev</code></pre><p>This starts the desktop Tauri client. For Linux or mobile, see the <a href=\"@repo/openless-all/README.md\">platform build guide</a>.</p><p>After launch, dictate one sentence into an empty field to check both transcription and insertion. If you are just reading the code, find your platform in the architecture diagram and follow the data flow into the shared backend.</p>"
+  ],
+  "credentials": [
+    "<p>接入第三方云端语音或语言模型服务时，需使用你自己的服务密钥。在桌面客户端中，所有密钥均交由操作系统的安全凭据库管理，不会明文写入项目源码或提交至版本库。开发与调试时可放心使用，同时仍应避免在日志截图或公开讨论中暴露密钥。</p>",
+    "<p>Use your own key for cloud services. The desktop app keeps it in your system’s credential store, outside the source code.</p>"
+  ],
+  "project-direction": [
+    "<p>可以，而且这是 OpenLess 的核心设计原则之一。我们把 OpenLess 定位为开放的下一代语音交互层，而不是绑定某家闭源模型的订阅工具：语音识别用哪家、文字润色配哪家，完全由你依照准确率、延迟、隐私要求与成本自行决定，也支持跨平台自由组合。相关服务的计费标准与额度规则，均以你选定的服务商为准。</p>",
+    "<p>Yes. You can choose the service for speech recognition and the one that edits your text.</p>"
+  ],
+  "status": [
+    "<p>各平台的分发成熟度当前有所区别：macOS、Windows 与 Android 已提供开箱可用的正式版安装包；Linux、iOS 与 HarmonyOS 同样具备官方构建，但受限于平台签名规范与适配节奏，安装前提各不相同（例如需要开启测试版、自行签名或通过开发工具安装）。</p><p>请前往<a href=\"#平台支持\">下载页</a>核对每个平台最新的文件格式、系统版本要求、签名说明与发布来源。</p>",
+    "<p>Mac, Windows, and Android have stable installers. Linux, iOS, and HarmonyOS have official builds with different installation requirements. The <a href=\"#platform-support\">download guide</a> lists files, signing requirements, and release sources.</p>"
+  ],
+  "comparison": [
+    "<p>简而言之，听写追求“如实记录”，润色追求“得体成文”。</p><p>开启纯听写时，OpenLess 会把你说出口的话原原本本转成文字，适合需要保留口语原貌的速记场景；开启润色后，它会依照当前选定的风格包去除冗余、修正口误并调整语态。同一句口述请求，既可以输出为群聊里的简短消息，也可以整理为一封正式严谨的商务邮件，具体效果随时可通过切换风格控制。</p>",
+    "<p>Dictation writes down what you say. Editing adjusts the wording to your chosen style, such as a chat message or a formal email.</p>"
+  ],
+  "stability-freeze": [
+    "<p>作为一款高频使用的交互工具，稳定可靠远胜于仓促堆砌新特性。项目现阶段处于稳定性优先周期，主要接纳缺陷修复、跨平台兼容性改进、测试完善以及文档优化类提交。</p><p>如果你计划实现全新的产品功能，请在动手编写代码前先查阅仓库内的贡献说明，了解当前阶段的变更边界与评审原则，避免投入不必要的返工。</p>",
+    "<p>For now, the project prioritizes bug fixes, compatibility, and docs. Check the contribution notes before starting a new feature.</p>"
+  ],
+  "roadmap": [
+    "<p>诸如跨会话持续记住你的写作风格、一键插入常用文本片段等能力，目前仍处于规划阶段，尚未正式上线。完整的阶段性目标请参阅仓库中的<a href=\"@repo/README.zh.md#路线图\">路线图</a>。</p><p><strong>版本核对原则：</strong>判断某项功能或某个平台能否立即投入使用，请始终以官方发布页实际附带的安装包及发布说明为准，切勿仅依据路线图上的条目名称做判断。例如 Linux 与 iOS 虽已提供测试构建，但并不代表每一个正式版本都会同步附带这两种安装包。</p>",
+    "<p>Remembering a writing style across sessions and inserting saved snippets are still planned. See the <a href=\"@repo/README.md#roadmap\">roadmap</a>.</p><p>Check the assets on a particular release before assuming a planned feature is available. Linux and iOS have test builds, for example, but not every stable release includes those files.</p>"
+  ],
+  "contributing-workflow": [
+    "<p>所有代码修复与文档修改均围绕 <code>beta</code> 分支展开，请按以下三步提交你的贡献：</p><ol><li>从最新的 <code>beta</code> 分支检出工作分支，并在该分支上完成修改。</li><li>在改动所涉及的目标平台上进行实机测试，确认问题已解决且未影响原有主流程。</li><li>向 <code>beta</code> 分支提交 Pull Request，在描述中写明改动内容、修改原因以及具体的验证方式。</li></ol><p><strong>提交问题或缺陷修复时，请附上可复现的最小示例</strong>，尽量包含以下信息：所使用的操作系统与 OpenLess 版本号、触发时按下的快捷键、预期出现的结果、实际出现的现象；若该问题仅在某一款输入法或某一个特定应用中出现，也请明确写明。准确的复现条件能大幅缩短定位与评审时间。</p>",
+    "<ol><li>Start from <code>beta</code>.</li><li>Try the change on the platform it affects.</li><li>Open a PR against <code>beta</code>. Say what changed and how you tested it.</li></ol><p>For a bug fix, include the OS and OpenLess version, the key you pressed, what you expected, and what happened. Mention if the problem occurs only in one app or input method.</p>"
+  ],
+  "maintainer-release-checklist": [
+    "<p>正式发布直接面向全体用户，请维护者在构建、打标与发布前严格对照<a href=\"@repo/RELEASING.md\">发布清单</a>，逐项核验版本号一致性、安装包签名状态及更新通道配置，确认无误后再对外发布。</p>",
+    "<p>Maintainers: use the <a href=\"@repo/RELEASING.md\">release checklist</a> to verify versions, signing, and updates.</p>"
+  ],
+  "workflow": [
+    "<p>过去，人机交互要求我们把连贯的思绪拆成一次次敲击，再反复修改语气、核对专有名词、在不同窗口之间复制粘贴。OpenLess 探索的是更自然的<strong>下一代交互</strong>：你只管像平时那样开口表达，转写、润色与落位都在幕后完成，让文字直接抵达光标所在之处。</p><p>不需要先通读全部设置，按下面三步即可完成第一次体验：</p><ol><li>打开一封空白邮件草稿，点击正文区域，让光标停在准备落笔的位置。</li><li>按住录音快捷键，用平时的语速说一句：“明天上午十点见。”</li><li>松开快捷键。片刻之后，整理好的文字会自动插入邮件正文；若当前应用限制直接输入，只需按粘贴键即可，结果已自动保存在剪贴板中。</li></ol><p>整套流程只有“按住、说话、松手”三个动作。想直观感受润色与风格的作用，可以先切换到正式的邮件风格，再把同一句话说一遍并对比两次结果；如果只是随手记笔记，保持日常口吻直接口述即可，不必提前在心里打腹稿。</p>",
+    "<ol><li>Click in the body of the draft.</li><li>Hold the shortcut and say, “See you at ten tomorrow.”</li><li>Release the shortcut. The sentence appears in your draft. If it doesn’t, try pasting.</li></ol><p>For a more formal result, switch to an email style and try the same sentence. For a note, speak the way you normally would.</p>"
+  ],
+  "acknowledgements": [
+    "<p>衷心感谢每一位贡献代码、测试与文档的开发者，感谢持续提供支持的赞助商，也感谢在 LinuxDo 社区中认真试用并坦诚提出建议与反馈的每一位朋友。正是这些真实的使用声音，推动着 OpenLess 一步步走向成熟。</p>",
+    "<p>Thank you to the developers, sponsors, and people in the LinuxDo community who shared ideas and feedback.</p>"
+  ],
+  "license": [
+    "<h3>OpenLess 2.0：AGPL-3.0-only</h3><p>你可以自由使用、研究、修改并将 OpenLess 用于商业用途。仅在本地环境内部使用时，通常不要求公开你的修改。但若涉及对外分发软件，或通过网络向用户提供你的修改版本，则须严格履行以下许可义务：</p><ul><li><strong>分发副本：</strong>必须完整保留原版权声明、许可证文本及免责声明。分发受许可约束的修改版本时，须明确标明修改内容与修改日期，且整部作品仍须按 AGPL v3 授权；分发编译后的二进制文件时，须按第 6 条规定的方式提供对应的源代码。</li><li><strong>通过网络提供修改版：</strong>如果用户通过网络与你的修改版进行交互，须按第 13 条向这些用户明确提供免费获取该版本对应源码的途径。</li></ul><p>完整条款以原文为准，请查阅<a href=\"https://github.com/Open-Less/openless/blob/v2.0.2-tauri/LICENSE\">2.0 版本的完整许可条款</a>（请重点核对第 4–6、13、15–16 条）。</p><h3>已发布的 OpenLess 1.x（含 1.0）：MIT</h3><p>已发布的 1.x 系列采用 MIT 许可证。你可以自由使用、修改、复制、再分发、再许可或销售，也可以将修改保留在自己的项目之中。分发副本或其中实质性部分时，必须一并保留原版权声明和 MIT 许可声明。软件按“原样”提供，不作任何明示或暗示担保。OpenLess 2.0 变更许可证的决定，不追溯也不改变已发布 1.x 版本的原有条款。</p><p><a href=\"https://github.com/Open-Less/openless/blob/v1.3.18-tauri/LICENSE\">查看 1.x 版本的 MIT 原文</a>。项目所包含的第三方组件仍按其各自许可条款使用，详见下方署名。</p>",
+    "<h3>OpenLess 2.0: AGPL-3.0-only</h3><p>You may use, study, modify, and sell the software. Local use alone generally does not require publishing changes. Two situations matter:</p><ul><li><strong>Sharing copies:</strong> Keep copyright, license, and warranty notices. Mark changes and their dates, license the covered modified work as a whole under AGPL v3, and provide corresponding source for binaries in a way allowed by section 6.</li><li><strong>Offering a modified version over a network:</strong> Under section 13, prominently offer users who interact with that version remotely a way to obtain its corresponding source at no charge.</li></ul><p><a href=\"https://github.com/Open-Less/openless/blob/v2.0.2-tauri/LICENSE\">Read the complete 2.0 license</a>, especially sections 4–6, 13 and 15–16.</p><h3>Published OpenLess 1.x releases (including 1.0): MIT</h3><p>You may use, modify, copy, redistribute, sublicense, or sell these releases without publishing your changes. Include the original copyright and permission notices with copies or substantial portions. The software is provided as is, without warranty. The change in 2.0 does not relicense existing 1.x releases.</p><p><a href=\"https://github.com/Open-Less/openless/blob/v1.3.18-tauri/LICENSE\">Read the 1.x MIT license</a>. Third-party components keep their own terms; see the credits below.</p>"
+  ],
+  "test-dictation": [
+    "<p>完成任一管线的配置后，建议立即用一句话跑通完整链路，确认硬件权限、服务连通与文本插入均无异常：</p><ol><li>保存渠道配置后点击「验证」。如果渠道列表中存在多个配置，请确认刚刚配置完成的渠道或套件处于启用且优先使用的状态。</li><li>打开一篇空白笔记，将光标置于正文区，按住录音快捷键说出“明天下午三点开会”，随后松开。确认这句话准确出现在笔记中，整条输入流程才算正式跑通。</li></ol><p>如遇到异常，请按以下顺序排查：若完全没有文字输出，优先检查系统麦克风权限、当前启用的 ASR 渠道状态及服务商可用额度；若能转出逐字稿但未按风格润色，请检查语言模型渠道是否已启用并验证通过。</p><p><strong>安全提示：</strong>API Key 属于敏感凭证，只应填写在 OpenLess 客户端或服务商官方控制台中，严禁粘贴至文档、群聊、公开工单或反馈截图。</p>",
+    "<ol><li>Save and verify the channel. If you have several, make sure the configured channel or suite is selected.</li><li>Open a blank note, hold the recording shortcut, say “Meeting tomorrow at three,” and release. Check that the words appear in the note.</li></ol><p>No text at all? Check microphone access, the ASR channel, and your provider quota. If transcription works but editing does not, check the language model channel. Enter keys only in the app or provider console; keep them out of chat, issue reports, and screenshots.</p>"
+  ],
+  "configure-asr": [
+    "<p>ASR（语音识别）负责将你的声音准确转写为文字，是传统模式中的第一步。</p><p>具体操作如下：打开「设置 → AI 服务与模型」，先将识别管线切换为<strong>传统模式</strong>；接着在下方选择一家语音服务商，按对应步骤获取凭证并在「语音识别 → 添加渠道」中填写、保存并点击「验证」；验证通过后启用该渠道，并将其调整到启用列表的第一位。如果你只需要原样逐字稿，完成这一步即可直接使用，可暂不配置 LLM。</p>",
+    "<p>In Settings → AI services and models, select <strong>Traditional</strong>. ASR turns speech into a transcript. Choose one provider below, save and verify the channel, enable it, and put it first among enabled ASR channels. For a plain transcript, you can skip the LLM.</p>"
+  ],
+  "configure-llm": [
+    "<p>LLM（大语言模型）接手的是上一步 ASR 识别出的<strong>纯文本</strong>：它会依据你选定的风格包去除口头语、修正自我改口、理顺语气与格式，全程无需重新处理录音。</p><p>LLM 与 ASR 完全支持跨平台混搭（例如「火山 ASR + DeepSeek 润色」），你可以根据准确率、响应速度与成本自由组合。配置时请在「设置 → AI 服务与模型 → 语言模型／文字处理」中单独添加渠道，切勿将文本模型 ID 填入 ASR 配置项。</p>",
+    "<p>An LLM edits the <strong>text</strong> returned by ASR: it can remove fillers, adjust tone, or format a draft. Mix providers if you like, such as Volcengine for speech and DeepSeek for editing. Add a separate language model channel; a text model ID does not belong in the ASR field.</p>"
+  ],
+  "multimodal": [
+    "<p><strong>多模态</strong>是指单个模型能够处理不止一种形态的输入——例如听录音并输出文字、看图片并描述画面，或读视频并提炼摘要。模型不必同时具备这三项能力才算多模态；在为 OpenLess 挑选听写模型时，只需严格核对两项条件：<strong>能否直接输入音频，以及能否输出文字</strong>。仅支持图像输入的模型同样属于多模态，但无法用于语音听写。</p><p>与传统模式“ASR 转写 + LLM 润色”的两段式管线不同，多模态模式会将录音与指令直接交给同一个模型一步生成结果。请注意，此处配置的是 OpenLess 的<strong>麦克风听写</strong>链路，并非图片或视频上传入口。</p><ol><li>打开「设置 → AI 服务与模型 → 识别管线」，选择<strong>多模态模式</strong>。多模态配置与传统渠道相互独立保存，切换后需前往「多模态模型」确认当前模型与密钥。</li><li>参照下方服务商卡片，依次填写<strong>提供方、模型 ID、API Key、Base URL</strong>。文档中的模型 ID 仅为示例型号，请先确认你的账号已开通对应权限。</li><li>保存后点击「验证」。随后将光标放入空白笔记，按住录音键说“明天下午两点，不对，三点开会”，松开后核对输出文本以及最终时间是否已更正为三点。部分通用模型的连接验证仅检测文本接口，验证通过不代表支持音频输入，务必通过实际录音确认。</li></ol><p>若文本连通正常、录音时却提示不支持输入类型，请依次排查：该<strong>具体模型版本与所填接口地址</strong>是否同时支持音频输入，以及账号权限与余额是否正常。如需恢复原有配置，切回传统模式即可，此前的 ASR 与 LLM 渠道设置仍会完整保留。</p>",
+    "<p>A <strong>multimodal</strong> model handles more than one kind of information. It might transcribe a recording, describe an image, or summarize a video. It need not support all three. For dictation, check two things on the exact model card: <strong>audio input and text output</strong>. A vision-only model can be multimodal without being able to hear you.</p><p>Traditional mode sends the transcript from ASR to a separate LLM. Multimodal mode sends a recording and instructions to one model and gets text back. This OpenLess workflow uses the <strong>microphone</strong>; it is not an image or video upload feature.</p><ol><li>In Settings → AI services and models → Recognition pipeline, choose <strong>Multimodal</strong>. Its settings are separate from traditional channels. Confirm the key and model under Multimodal model.</li><li>Choose a provider below. Set the <strong>provider, model ID, API key, and base URL</strong>. Check that your account can access the example model.</li><li>Save and verify. In a blank note, hold the recording shortcut and say “Tomorrow at two—sorry, three.” Release, read the result, and check the corrected time. Verification for general models may test only text connectivity, not audio input.</li></ol><p>If text works but audio is rejected, check the specific model and endpoint for audio support, then check access and quota. Switch back to Traditional to restore your previous ASR and LLM settings.</p>"
+  ],
+  "deepseek-suite": [
+    "<p>如果你希望由 DeepSeek 统一承接语音听写、问答提问、联网搜索与语音朗读，可以选择<strong>DeepSeek 大统一</strong>。它将 DeepSeek 旗下的多项官方服务整合为一条完整管线，既不同于传统模式下仅用 DeepSeek 做文字润色，也不同于上文的单模型多模态听写。</p><ol><li>前往 <a href=\"https://platform.deepseek.com/api_keys\" target=\"_blank\" rel=\"noopener noreferrer\">DeepSeek 开放平台</a>创建官方 API Key，并确认<a href=\"https://platform.deepseek.com/usage\" target=\"_blank\" rel=\"noopener noreferrer\">账户内具备可用额度</a>。</li><li>在 OpenLess 中依次进入「设置 → AI 服务与模型 → 识别管线」，选择「DeepSeek 大统一」。首次打开时，若你此前已启用官方 DeepSeek 文字渠道，系统可能自动带入该 Key；若输入框为空，请手动粘贴。随后选择所需的朗读音色，点击「保存配置」。日后如需更换密钥，必须在套件页面中单独保存。</li><li>打开空白笔记，按住快捷键说一句话并松开，稍候片刻即可看到转写文本。该模式在录音结束后统一上传识别，因此边说时界面暂不出现实时文字属于正常现象。你也可以打开问答窗口直接提问，待回答生成完毕后点击朗读，检验所选音色是否正常。</li></ol><p>如果界面中未显示「DeepSeek 大统一」，请先检查当前安装的 OpenLess 版本是否已包含该入口；若未包含，仍可继续采用传统 ASR 搭配 DeepSeek LLM 的方案。语音识别与联网搜索均按服务商的计费标准结算。</p><p class=\"provider-refs\">官方说明：<a href=\"https://github.com/Open-Less/openless/blob/beta/docs/deepseek-suite.md\">OpenLess 套件说明</a> · <a href=\"https://api-docs.deepseek.com/zh-cn/guides/asr/\">DeepSeek 语音识别说明</a></p>",
+    "<p>Choose <strong>DeepSeek suite</strong> to use DeepSeek for speech recognition, Q&A, native web search, and read-aloud. It combines separate DeepSeek services. This is distinct from using DeepSeek just to edit ASR text or using one audio-capable model in Multimodal mode.</p><ol><li>Create an official key on the <a href=\"https://platform.deepseek.com/api_keys\" target=\"_blank\" rel=\"noopener noreferrer\">DeepSeek Platform</a> and check <a href=\"https://platform.deepseek.com/usage\" target=\"_blank\" rel=\"noopener noreferrer\">your API balance</a>.</li><li>In Settings → AI services and models → Recognition pipeline, choose DeepSeek suite. On first setup the key may be copied from an enabled official DeepSeek text channel. If the field is empty, paste your key. Choose a voice and save. Subsequent key changes must be saved in the suite itself.</li><li>Dictate a sentence in a note and release the shortcut. Upload starts after recording stops, so no live words are expected. You can also ask a question and use Read aloud on the finished answer.</li></ol><p>If your release does not show the suite, use Traditional ASR with a DeepSeek LLM instead. Speech and web use are billed by the provider.</p><p class=\"provider-refs\">Official guides: <a href=\"https://github.com/Open-Less/openless/blob/beta/docs/deepseek-suite.md\">OpenLess suite notes</a> · <a href=\"https://api-docs.deepseek.com/zh-cn/guides/asr/\">DeepSeek speech API</a></p>"
+  ],
+  "sponsors": [
+    "<p align=\"center\">\n  <em>OpenLess 的持续发展离不开赞助商的慷慨支持。</em>\n</p>\n<p align=\"center\">\n  <a href=\"https://www.mivra.dev/\">\n    <img src=\"/assets/community/mivra.png\" alt=\"Mivra\" loading=\"lazy\" decoding=\"async\" height=\"52\">\n  </a>\n  <br>\n  <a href=\"https://www.mivra.dev/\">Mivra (mivra.dev)</a>\n</p>\n<p align=\"center\">\n  Mivra 提供云服务器与裸金属服务器，节点覆盖香港与美国，另有游戏云服务与按需配置，为中小企业提供稳定、可靠的算力。\n</p>",
+    "<p align=\"center\">\n  <em>OpenLess is sustained by the generous support of its sponsors.</em>\n</p>\n<p align=\"center\">\n  <a href=\"https://www.mivra.dev/\">\n    <img src=\"/assets/community/mivra.png\" alt=\"Mivra\" loading=\"lazy\" decoding=\"async\" height=\"52\">\n  </a>\n  <br>\n  <a href=\"https://www.mivra.dev/\">Mivra (mivra.dev)</a>\n</p>\n<p align=\"center\">\n  Mivra provides cloud servers and bare-metal servers, with nodes in Hong Kong and the United States, gaming cloud services, and on-demand configurations, delivering stable, reliable computing power for small and medium-sized businesses.\n</p>"
+  ],
+  "third-party-components": [
+    "<p>概览页的年度活动热力图移植自 <strong>Rare UI</strong> 的 <a href=\"https://rareui.com/components/githubactivity\">GitHub Activity</a>\n组件（Copyright (c) 2026 Swami Malode，MIT + Commons Clause，要求署名）。移植保留上游的布局、\n周/月换算、悬浮提示和可展开面板，只把 GitHub 数据源换成本地听写统计。源码位于\n<code>openless-all/app/src/components/ui/GitHubActivity.tsx</code> 与 <code>github-activity.css</code>。\n同一署名也出现在「设置 → 关于与更新 → 组件来源」。</p>",
+    "<p>The Overview yearly-activity card is a port of <strong>Rare UI</strong>&#x27;s <a href=\"https://rareui.com/components/githubactivity\">GitHub Activity</a>\ncomponent (Copyright (c) 2026 Swami Malode, MIT + Commons Clause, attribution required).\nThe port keeps the upstream layout, week/month maths, tooltip and expandable panel, and\nreplaces the GitHub data source with local dictation counts. Source:\n<code>openless-all/app/src/components/ui/GitHubActivity.tsx</code> and <code>github-activity.css</code>.\nThe same credit is shown in Settings → About → Component credits.</p>"
+  ],
+  "product-vision": [
+    "<p>OpenLess 想省下的，远不止打字的时间。我们要省下的，是你与这个世界协调的时间。</p>",
+    "<p>OpenLess is about more than saving keystrokes. We're here to give you back the time you spend coordinating with the world.</p>"
+  ],
+  "product-whats-next": [
+    [
+      {
+        "type": "video",
+        "src": "openless-promo-zh-1080p.mp4",
+        "poster": "openless-vision-cover.jpg",
+        "caption": "功能预热影片"
+      },
+      "<ol><li><strong>听写时插入内容。</strong> 支持在听写过程中插入截图、剪贴板内容和文件引用。</li><li><strong>处理口述反悔。</strong> 更新内置风格包。口述时临时改口，输出会按更正后的意思整理。</li><li><strong>连续录音。</strong> 调整录音胶囊。上一段仍在后处理时，可以开始下一段录音。</li><li><strong>完善长截图原文与剪贴板。</strong></li><li><strong>用 Shift 切换翻译。</strong></li><li><strong>识别输入场景。</strong> OpenLess 会识别当前应用和浏览器中的输入场景。例如，在浏览器地址栏说「我要访问 DeepSeek 官网」，它会输入官网地址并按下回车，打开网站。</li></ol>"
+    ],
+    [
+      {
+        "type": "video",
+        "src": "openless-promo-en-1080p.mp4",
+        "poster": "openless-vision-cover.jpg",
+        "caption": "Upcoming features teaser"
+      },
+      "<ol><li><strong>Add content while dictating.</strong> Insert screenshots, clipboard content, and file references during dictation.</li><li><strong>Handle spoken corrections.</strong> Updated built-in style packs follow your corrected wording when you change your mind mid-sentence.</li><li><strong>Record while the previous clip is processing.</strong> The updated recording capsule lets you start a new recording while OpenLess is still processing the last one.</li><li><strong>Improve how OpenLess handles text from long screenshots and clipboard content.</strong></li><li><strong>Toggle translation with Shift.</strong></li><li><strong>Recognize where you’re typing.</strong> OpenLess detects the active app and the input context in your browser. For example, say “I want to visit the DeepSeek website” in the browser’s address bar. OpenLess enters the website address and presses Enter to open it.</li></ol>"
+    ]
+  ]
+}
