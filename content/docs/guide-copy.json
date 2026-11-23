@@ -133,7 +133,7 @@
   ],
   "voice-input-now": [
     [
-      "<p><strong>连续输入，后台处理。</strong> 支持连续 10～20 段语音输入、最长一小时长语音后台处理，以及实时转写与异步回填。长语音在后台处理时，你可以继续听写或操作。</p>",
+      "<p><strong>连续输入，后台处理。</strong> 支持连续 10～20 段语音输入、最长一小时的后台处理（取决于服务商和网络状况）。我们会尽量保证实时转写与异步回填的稳定性。长语音在后台处理时，你可以继续听写或操作。</p>",
       {
         "type": "video",
         "src": "continuous-voice-input.mp4",
@@ -148,7 +148,7 @@
       "<p><strong>更长、更智能、更懂场景的语音输入，这就是 OpenLess。</strong></p>"
     ],
     [
-      "<p><strong>Keep dictating while OpenLess works in the background.</strong> Record 10–20 segments in succession, process recordings up to an hour long in the background, and see live transcription. You can keep dictating or working while OpenLess processes earlier audio and inserts the results when they’re ready.</p>",
+      "<p><strong>Keep dictating while OpenLess works in the background.</strong> Record 10–20 segments in succession, and process recordings up to an hour long in the background (depending on your service provider and network conditions). We aim to keep live transcription and asynchronous text insertion stable. You can keep dictating or working while OpenLess processes earlier audio and inserts the results when they’re ready.</p>",
       {
         "type": "video",
         "src": "continuous-voice-input.mp4",
