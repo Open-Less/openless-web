@@ -122,5 +122,13 @@
   "closing.openless-docs": "OpenLess 문서",
   "features.eyebrow": "LESS TYPING. MORE THINKING.",
   "workflow.eyebrow": "A LITTLE VOICE. ENDLESS POSSIBILITIES.",
-  "style.customize-style-packs": "스타일 팩 설정 및 마켓플레이스 이용"
+  "style.customize-style-packs": "스타일 팩 설정 및 마켓플레이스 이용",
+  "continuous.title": "끊임없이 이어지는 음성 입력",
+  "continuous.description": "10~20개 구간을 연속으로 입력하고 최대 1시간의 음성을 백그라운드에서 처리할 수 있습니다(서비스 제공업체와 네트워크 상황에 따라 다름). 이전 구간이 처리되는 동안 다음 녹음을 시작하세요.",
+  "continuous.detail": "실시간 전사와 비동기 결과 입력의 안정성을 높여 긴 음성이 처리되는 동안에도 작업을 계속할 수 있게 합니다.",
+  "continuous.learn-more": "연속 녹음과 백그라운드 처리 알아보기",
+  "app-aware.title": "앱에 맞게 달라지는 표현",
+  "app-aware.description": "현재 앱이나 앱 유형에 따라 스타일 팩을 자동으로 전환합니다. 채팅, 이메일, 메모, 코딩에 맞는 말투와 형식을 적용합니다.",
+  "app-aware.detail": "앱에 맞춰 입력 방식을 조정하고 처리가 끝나면 원래 앱과 입력 위치로 돌아가 결과를 입력합니다.",
+  "app-aware.learn-more": "앱별 입력 데모 보기"
 }

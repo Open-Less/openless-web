@@ -122,5 +122,13 @@
   "closing.openless-docs": "OpenLess 文档",
   "features.eyebrow": "LESS TYPING. MORE THINKING.",
   "workflow.eyebrow": "A LITTLE VOICE. ENDLESS POSSIBILITIES.",
-  "style.customize-style-packs": "配置风格包与使用风格市场"
+  "style.customize-style-packs": "配置风格包与使用风格市场",
+  "continuous.title": "一段接一段，继续说",
+  "continuous.description": "支持连续 10～20 段语音输入、最长一小时的后台处理（取决于服务商和网络状况）。上一段仍在处理时，可以开始下一段录音。",
+  "continuous.detail": "我们会尽量保证实时转写与异步回填的稳定性，让长语音在后台处理，前台仍能继续输入和操作。",
+  "continuous.learn-more": "了解连续录音与后台处理",
+  "app-aware.title": "懂应用，也懂你的表达",
+  "app-aware.description": "根据当前前台应用或应用分类，自动切换对应风格包。聊天、邮件、笔记和编程，都能匹配合适的语气与格式。",
+  "app-aware.detail": "按应用适配输入方式。后台任务完成后，自动返回原来的应用和输入位置，回填结果。",
+  "app-aware.learn-more": "查看跨应用适配演示"
 }
