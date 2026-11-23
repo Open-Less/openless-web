@@ -36,9 +36,9 @@
   "hero.everyday": "日常",
   "hero.scroll-to-explore-the-openless-app": "滾動查看 OpenLess App 界面",
   "hero.openless-overview-today-s-word-count": "OpenLess 今日概覽：今日字數、近七天的辨識量與聽寫熱圖",
-  "features.put-it-into-words-with-ease": "**表達**，可以很簡單。",
-  "features.so-much-on-your-mind": "想法很多",
-  "features.built-for-next-gen-interaction-voice": "支援連續 10～20 段語音輸入。上一段在背景處理時，可以接著說。",
+  "features.put-it-into-words-with-ease": "**表達**可以很簡單",
+  "features.so-much-on-your-mind": "想法可以很多",
+  "features.built-for-next-gen-interaction-voice": "支援連續 10～20 段語音輸入。上一段在背景處理時，可以接著說下一段。",
   "features.a-new-idea-spoken-right-away": "開口就能寫訊息、記筆記，或把剛想到的點子變成給 AI 的提示詞。",
   "features.see-what-you-can-do": "看看它能做什麼",
   "features.think-it": "想到什麼",
@@ -48,7 +48,7 @@
   "features.your-browser-does-not-support-video": "你的瀏覽器不支持影片播放。",
   "style.good-interaction-fits-your-voice-save": "聊天、寫郵件、記筆記或寫程式時，OpenLess 會依目前的應用程式或類別自動切換風格包。你也可以自訂提示詞、語氣與格式，在風格市場安裝或分享。",
   "style.add-your-dictionary-for-names-and": "搭配個人詞典，記住人名、產品名與專業術語，讓工具更貼合你。",
-  "style.marketplace": "與風格市場（自動風格）",
+  "style.marketplace": "與風格市場",
   "style.style-packs": "風格包",
   "style.openless-style-pack-marketplace-recording-browse": "OpenLess 風格包與風格包市場演示：瀏覽、安裝與管理風格包",
   "style.watch-the-openless-style-pack-marketplace": "查看 OpenLess 風格包與風格包市場演示",
@@ -122,7 +122,7 @@
   "closing.openless-docs": "OpenLess 文件",
   "features.eyebrow": "LESS TYPING. MORE THINKING.",
   "workflow.eyebrow": "A LITTLE VOICE. ENDLESS POSSIBILITIES.",
-  "style.customize-style-packs": "設定風格包與使用風格市場",
+  "style.customize-style-packs": "設定風格包、使用風格包市場",
   "continuous.title": "一段接一段，繼續說",
   "continuous.description": "支援連續 10～20 段語音輸入、最長一小時的背景處理（取決於服務商和網路狀況）。上一段仍在處理時，可以開始下一段錄音。",
   "continuous.detail": "我們會盡量確保即時轉寫與非同步回填的穩定性，讓長語音在背景處理，前景仍可繼續輸入與操作。",
@@ -130,5 +130,6 @@
   "app-aware.title": "懂應用程式，也懂你的表達",
   "app-aware.description": "依目前的應用程式或類別，自動切換對應風格包。聊天、郵件、筆記和程式設計，都能搭配合適的語氣與格式。",
   "app-aware.detail": "依應用程式調整輸入方式。背景任務完成後，自動返回原來的應用程式和輸入位置，填入結果。",
-  "app-aware.learn-more": "查看跨應用程式輸入示範"
+  "app-aware.learn-more": "查看跨應用程式輸入示範",
+  "style.automatic-style": "自動風格"
 }

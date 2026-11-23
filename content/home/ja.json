@@ -48,7 +48,7 @@
   "features.your-browser-does-not-support-video": "お使いのブラウザーは動画再生に対応していません。",
   "style.good-interaction-fits-your-voice-save": "OpenLess は使用中のアプリやそのカテゴリに合わせてスタイルパックを自動で切り替えます。プロンプト、文体、書式をカスタマイズし、マーケットでパックを入手・共有できます。",
   "style.add-your-dictionary-for-names-and": "人名や製品名、専門用語は個人辞書へ。いつもの言葉で書けます。",
-  "style.marketplace": "とマーケット（自動スタイル）",
+  "style.marketplace": "とマーケット",
   "style.style-packs": "スタイルパックと",
   "style.openless-style-pack-marketplace-recording-browse": "OpenLessのスタイルマーケットの録画：スタイルパックの閲覧、インストール、管理",
   "style.watch-the-openless-style-pack-marketplace": "スタイルパックとマーケットのデモを見る",
@@ -130,5 +130,6 @@
   "app-aware.title": "アプリに合う表現を自動で",
   "app-aware.description": "使用中のアプリやカテゴリに合わせてスタイルパックを自動で切り替えます。チャット、メール、メモ、コーディングに合う文体と書式で入力できます。",
   "app-aware.detail": "アプリごとに入力方法を調整します。処理が終わると元のアプリと入力位置に戻り、結果を入力します。",
-  "app-aware.learn-more": "アプリに合わせた入力の実演を見る"
+  "app-aware.learn-more": "アプリに合わせた入力の実演を見る",
+  "style.automatic-style": "自動スタイル"
 }

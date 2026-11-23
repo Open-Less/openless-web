@@ -48,7 +48,7 @@
   "features.your-browser-does-not-support-video": "Your browser does not support video playback. ",
   "style.good-interaction-fits-your-voice-save": "OpenLess switches style packs based on the active app or its category. Customize prompts, tone, and formatting, then install or share packs in the marketplace.",
   "style.add-your-dictionary-for-names-and": "Add your dictionary for names and terms—tools built around you.",
-  "style.marketplace": "and the marketplace (Auto Style)",
+  "style.marketplace": "and the marketplace",
   "style.style-packs": "Style Packs &",
   "style.openless-style-pack-marketplace-recording-browse": "OpenLess style pack marketplace recording: browse, install, and manage style packs",
   "style.watch-the-openless-style-pack-marketplace": "Watch the OpenLess style pack marketplace demo",
@@ -122,7 +122,7 @@
   "closing.openless-docs": "OpenLess Docs",
   "features.eyebrow": "LESS TYPING. MORE THINKING.",
   "workflow.eyebrow": "A LITTLE VOICE. ENDLESS POSSIBILITIES.",
-  "style.customize-style-packs": "Customize style packs and explore the marketplace",
+  "style.customize-style-packs": "Configure style packs and use the marketplace",
   "continuous.title": "Keep speaking, segment after segment",
   "continuous.description": "Dictate 10–20 segments in succession, with up to an hour of background processing (depending on your service provider and network conditions). Start the next recording while the previous one is still processing.",
   "continuous.detail": "We aim to keep live transcription and asynchronous text insertion stable, so you can keep typing and working while long recordings process in the background.",
@@ -130,5 +130,6 @@
   "app-aware.title": "The right style for every app",
   "app-aware.description": "OpenLess switches style packs based on the active app or its category, matching your tone and formatting to chats, email, notes, and code.",
   "app-aware.detail": "Text insertion adapts to each app. When processing finishes, OpenLess returns to the original app and input position to insert the result.",
-  "app-aware.learn-more": "Watch app-aware input in action"
+  "app-aware.learn-more": "Watch app-aware input in action",
+  "style.automatic-style": "Auto Style"
 }

@@ -48,7 +48,7 @@
   "features.your-browser-does-not-support-video": "이 브라우저에서는 동영상을 재생할 수 없습니다. ",
   "style.good-interaction-fits-your-voice-save": "OpenLess는 현재 앱이나 앱 유형에 맞춰 스타일 팩을 자동으로 전환합니다. 프롬프트, 말투, 형식을 직접 설정하고 마켓플레이스에서 팩을 설치하거나 공유할 수 있습니다.",
   "style.add-your-dictionary-for-names-and": "이름과 제품명, 전문 용어는 개인 사전에. 평소 쓰는 말이 그대로 담깁니다.",
-  "style.marketplace": "및 마켓플레이스 (자동 스타일)",
+  "style.marketplace": "및 마켓플레이스",
   "style.style-packs": "스타일 팩과",
   "style.openless-style-pack-marketplace-recording-browse": "OpenLess 스타일 마켓플레이스 녹화: 스타일 팩 탐색, 설치 및 관리",
   "style.watch-the-openless-style-pack-marketplace": "OpenLess 스타일 팩 마켓플레이스 데모 보기",
@@ -130,5 +130,6 @@
   "app-aware.title": "앱에 맞게 달라지는 표현",
   "app-aware.description": "현재 앱이나 앱 유형에 따라 스타일 팩을 자동으로 전환합니다. 채팅, 이메일, 메모, 코딩에 맞는 말투와 형식을 적용합니다.",
   "app-aware.detail": "앱에 맞춰 입력 방식을 조정하고 처리가 끝나면 원래 앱과 입력 위치로 돌아가 결과를 입력합니다.",
-  "app-aware.learn-more": "앱별 입력 데모 보기"
+  "app-aware.learn-more": "앱별 입력 데모 보기",
+  "style.automatic-style": "자동 스타일"
 }

@@ -36,9 +36,9 @@
   "hero.everyday": "日常",
   "hero.scroll-to-explore-the-openless-app": "滚动查看 OpenLess App 界面",
   "hero.openless-overview-today-s-word-count": "OpenLess 今日概览：今日字数、近七天的识别量与听写热力图",
-  "features.put-it-into-words-with-ease": "**表达**，可以很简单。",
-  "features.so-much-on-your-mind": "想法很多",
-  "features.built-for-next-gen-interaction-voice": "支持连续 10～20 段语音输入。上一段在后台处理时，可以接着说。",
+  "features.put-it-into-words-with-ease": "**表达**可以很简单",
+  "features.so-much-on-your-mind": "想法可以很多",
+  "features.built-for-next-gen-interaction-voice": "支持连续 10～20 段语音输入。上一段在后台处理时，可以接着说下一段。",
   "features.a-new-idea-spoken-right-away": "开口就能写消息、记笔记，或者把刚想到的点子变成给 AI 的提示词。",
   "features.see-what-you-can-do": "看看它能做什么",
   "features.think-it": "想到什么",
@@ -48,7 +48,7 @@
   "features.your-browser-does-not-support-video": "你的浏览器不支持视频播放。",
   "style.good-interaction-fits-your-voice-save": "聊天、写邮件、记笔记或编程时，OpenLess 按当前应用或应用分类自动切换风格包。你也可以自定义提示词、语气和格式，在风格市场安装或分享。",
   "style.add-your-dictionary-for-names-and": "搭配个人词典牢记人名、产品名与专业术语，让工具主动贴合你。",
-  "style.marketplace": "与风格市场（自动风格）",
+  "style.marketplace": "与风格市场",
   "style.style-packs": "风格包",
   "style.openless-style-pack-marketplace-recording-browse": "OpenLess 风格包与风格包市场演示：浏览、安装与管理风格包",
   "style.watch-the-openless-style-pack-marketplace": "查看 OpenLess 风格包与风格包市场演示",
@@ -122,7 +122,7 @@
   "closing.openless-docs": "OpenLess 文档",
   "features.eyebrow": "LESS TYPING. MORE THINKING.",
   "workflow.eyebrow": "A LITTLE VOICE. ENDLESS POSSIBILITIES.",
-  "style.customize-style-packs": "配置风格包与使用风格市场",
+  "style.customize-style-packs": "配置风格包、使用风格包市场",
   "continuous.title": "一段接一段，继续说",
   "continuous.description": "支持连续 10～20 段语音输入、最长一小时的后台处理（取决于服务商和网络状况）。上一段仍在处理时，可以开始下一段录音。",
   "continuous.detail": "我们会尽量保证实时转写与异步回填的稳定性，让长语音在后台处理，前台仍能继续输入和操作。",
@@ -130,5 +130,6 @@
   "app-aware.title": "懂应用，也懂你的表达",
   "app-aware.description": "根据当前前台应用或应用分类，自动切换对应风格包。聊天、邮件、笔记和编程，都能匹配合适的语气与格式。",
   "app-aware.detail": "按应用适配输入方式。后台任务完成后，自动返回原来的应用和输入位置，回填结果。",
-  "app-aware.learn-more": "查看跨应用适配演示"
+  "app-aware.learn-more": "查看跨应用适配演示",
+  "style.automatic-style": "自动风格"
 }
