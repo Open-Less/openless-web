@@ -34,11 +34,6 @@
         "火山控制台指引",
         "Console guide",
         "https://docs.volcengine.com/docs/doubao-voice/console-guidance?lang=zh"
-      ],
-      [
-        "OpenLess 火山配置说明",
-        "OpenLess setup notes",
-        "https://github.com/appergb/openless/blob/main/docs/volcengine-setup.md"
       ]
     ],
     "section": "configure-asr"
@@ -187,9 +182,9 @@
     ],
     "links": [
       [
-        "OpenLess 配置说明",
-        "OpenLess configuration",
-        "https://github.com/appergb/openless/blob/main/docs/volcengine-setup.md"
+        "火山方舟官方文档",
+        "Volcengine Ark docs",
+        "https://docs.volcengine.com/docs/ark?lang=zh"
       ]
     ]
   },
